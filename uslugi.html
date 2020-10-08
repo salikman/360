@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,7 +9,7 @@
 <link rel="stylesheet" href="css/libs.css">
 <link rel="stylesheet" href="css/main.css">
 </head>
-<body class="is-home">    
+<body class="not-is-home">    
     <!-- Nav -->
     <nav id="nav" class="navbar">
 	<div class="container">
@@ -36,11 +36,11 @@
 </nav>
     <!-- /.Nav -->
     <!-- Header -->
-    <haeder class="header" style="background-image: url('img/header.jpg');">
+    <haeder class="header header-services" style="background-image: url('img/uslugi-bg.jpg');">
 	<div class="container">
 		<div class="header-wrapper">
-			<h1 class="header__title">очень много красивых букв ла ла ла, мы снимаем крутые видео</h1>
-			<a data-fancybox href="#request-call" class="header__btn btn">
+			<h1 class="header__title">сЪемка производства</h1>
+			<a href="#" class="header__btn btn">
 				<span></span>
 				<span></span>
 				<span></span>
@@ -53,105 +53,98 @@
     <!-- /.Header -->
     <!-- Main -->
     <main id="main">
-        <section class="services" id="services">
+        <div class="breadcrumb">
+    <a href="#">Услуги/ Съемка производства</a>
+</div>
+        <section class="production-filming">
     <div class="container">
-        <div class="services-wrapper">
-            <h2 class="services__title section-title">
-                <span>01/</span>
-                наши услуги
+        <div class="production-filming-wrapper">
+            <div class="production-filming-col">
+                <div class="production-filming__slider" id="production-filming">
+                    <a data-fancybox="production-filming" href="img/slide-1.jpg">
+                        <img src="img/slide-1.jpg">
+                    </a>
+                    <a data-fancybox="production-filming" href="img/slide-1.jpg">
+                        <img src="img/slide-1.jpg">
+                    </a>
+                    <a data-fancybox="production-filming" href="img/slide-1.jpg">
+                        <img src="img/slide-1.jpg">
+                    </a>
+                    <a data-fancybox="production-filming" href="img/slide-1.jpg">
+                        <img src="img/slide-1.jpg">
+                    </a>
+                </div>
+            </div>
+            <div class="production-filming-col">
+                <div class="production-filming-inner">
+                    <img class="production-filming__img" src="img/ico-production.png">
+                    <h4 class="production-filming__title">сЪемка производства</h4>
+                    <div class="production-filming__description">
+                        <p>Съемка объектов недвижимости, зданий, коттеджных городков, строительных площадок.</p>
+                        <p>Съемка объектов недвижимости, зданий, коттеджных городков, строительных площадок.</p>
+                    </div>
+                    <a href="#" class="production-filming__btn btn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        Заказать
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+        <section class="price" id="price">
+    <div class="container">
+        <div class="price-wrapper">
+            <h2 class="price__title section-title">
+                <span>05/</span>
+                наши цены
             </h2>
-            <p class="services__subtitle">Получите максимум из тех возможностей, которые гарантирует профессиональная видеосьемка</p>
-            <div class="services__list">
-                <div class="services__item">
+            <div class="price__list">
+                <div class="price__item">
                     <div class="icon">
-                        <div class="icon--img" style="background-image: url(img/serv-1.png);"></div>
-                        <!-- <img src="img/serv-1.png" alt=""> -->
+                        <img src="img/price-icon.png">
                     </div>
                     <div class="title">
-                        <p>Съемка недвижимости</p>
+                        <p>Ирпень, Буча и регион*</p>
                     </div>
                     <div class="description">
-                        <p>Съемка объектов недвижимости, зданий, коттеджных городков, строительных площадок.</p>
+                        <ul>
+                            <li>Только Фото с коптера - 30 минут съемки - 1000 грн.</li>
+                            <li>Фото/Видео с коптера - 1 час съемки - 2000 грн., последуюшие часы 1500 грн.</li>
+                            <li>Монтаж видео 1 минуты - от 500 грн. </li>
+                        </ul>
                     </div>
-                    <a href="#" class="services__btn">Узнать больше</a>
+                    <a data-fancybox href="#request-call" class="price__btn btn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        Заказать
+                    </a>
                 </div>
-                <div class="services__item">
+                <div class="price__item">
                     <div class="icon">
-                        <div class="icon--img" style="background-image: url(img/serv-2.png);"></div>
-                        <!-- <img src="img/serv-2.png" alt=""> -->
+                        <img src="img/price-icon.png">
                     </div>
                     <div class="title">
-                        <p>Съемка производства</p>
+                        <p>Киев*</p>
                     </div>
                     <div class="description">
-                        <p>Съемка объектов недвижимости, зданий, коттеджных городков, строительных площадок.</p>
+                        <ul>
+                            <li>Фото/Видео с коптера - 1 час съемки - 2500 грн., последуюшие часы 2000 грн.</li>
+                            <li>Монтаж видео 1 минуты - от 500 грн. </li>
+                        </ul>
                     </div>
-                    <a href="#" class="services__btn btn-default">Узнать больше</a>
-                </div>
-                <div class="services__item">
-                    <div class="icon">
-                        <div class="icon--img" style="background-image: url(img/serv-3.png);"></div>
-                        <!-- <img src="img/serv-3.png" alt=""> -->
-                    </div>
-                    <div class="title">
-                        <p>Видео презентации</p>
-                    </div>
-                    <div class="description">
-                        <p>Съемка объектов недвижимости, зданий, коттеджных городков, строительных площадок.</p>
-                    </div>
-                    <a href="#" class="services__btn btn-default">Узнать больше</a>
-                </div>
-                <div class="services__item">
-                    <div class="icon">
-                        <div class="icon--img" style="background-image: url(img/serv-4.png);"></div>
-                        <!-- <img src="img/serv-4.png" alt=""> -->
-                    </div>
-                    <div class="title">
-                        <p>Съемка машин</p>
-                    </div>
-                    <div class="description">
-                        <p>Съемка объектов недвижимости, зданий, коттеджных городков, строительных площадок.</p>
-                    </div>
-                    <a href="#" class="services__btn btn-default">Узнать больше</a>
-                </div>
-                <div class="services__item">
-                    <div class="icon">
-                        <div class="icon--img" style="background-image: url(img/serv-5.png);"></div>
-                        <!-- <img src="img/serv-5.png" alt=""> -->
-                    </div>
-                    <div class="title">
-                        <p>Съемка интерьеров</p>
-                    </div>
-                    <div class="description">
-                        <p>Съемка объектов недвижимости, зданий, коттеджных городков, строительных площадок.</p>
-                    </div>
-                    <a href="#" class="services__btn btn-default">Узнать больше</a>
-                </div>
-                <div class="services__item">
-                    <div class="icon">
-                        <div class="icon--img" style="background-image: url(img/serv-6.png);"></div>
-                        <!-- <img src="img/serv-6.png" alt=""> -->
-                    </div>
-                    <div class="title">
-                        <p>360 фото</p>
-                    </div>
-                    <div class="description">
-                        <p>Съемка объектов недвижимости, зданий, коттеджных городков, строительных площадок.</p>
-                    </div>
-                    <a href="#" class="services__btn btn-default">Узнать больше</a>
-                </div>
-                <div class="services__item">
-                    <div class="icon">
-                        <div class="icon--img" style="background-image: url(img/serv-6.png);"></div>
-                        <!-- <img src="img/serv-7.png" alt=""> -->
-                    </div>
-                    <div class="title">
-                        <p>360 видео</p>
-                    </div>
-                    <div class="description">
-                        <p>Съемка объектов недвижимости, зданий, коттеджных городков, строительных площадок.</p>
-                    </div>
-                    <a href="#" class="services__btn btn-default">Узнать больше</a>
+                    <a data-fancybox href="#request-call" class="price__btn btn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        Заказать
+                    </a>
                 </div>
             </div>
         </div>
@@ -320,61 +313,6 @@
                     <div class="description">
                         <p>Успейте воспользоваться нашими услугами по специальным ценам.</p>
                     </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-        <section class="price" id="price">
-    <div class="container">
-        <div class="price-wrapper">
-            <h2 class="price__title section-title">
-                <span>05/</span>
-                наши цены
-            </h2>
-            <div class="price__list">
-                <div class="price__item">
-                    <div class="icon">
-                        <img src="img/price-icon.png">
-                    </div>
-                    <div class="title">
-                        <p>Ирпень, Буча и регион*</p>
-                    </div>
-                    <div class="description">
-                        <ul>
-                            <li>Только Фото с коптера - 30 минут съемки - 1000 грн.</li>
-                            <li>Фото/Видео с коптера - 1 час съемки - 2000 грн., последуюшие часы 1500 грн.</li>
-                            <li>Монтаж видео 1 минуты - от 500 грн. </li>
-                        </ul>
-                    </div>
-                    <a data-fancybox href="#request-call" class="price__btn btn">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        Заказать
-                    </a>
-                </div>
-                <div class="price__item">
-                    <div class="icon">
-                        <img src="img/price-icon.png">
-                    </div>
-                    <div class="title">
-                        <p>Киев*</p>
-                    </div>
-                    <div class="description">
-                        <ul>
-                            <li>Фото/Видео с коптера - 1 час съемки - 2500 грн., последуюшие часы 2000 грн.</li>
-                            <li>Монтаж видео 1 минуты - от 500 грн. </li>
-                        </ul>
-                    </div>
-                    <a data-fancybox href="#request-call" class="price__btn btn">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        Заказать
-                    </a>
                 </div>
             </div>
         </div>
